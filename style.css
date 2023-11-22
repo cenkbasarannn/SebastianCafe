@@ -1,0 +1,98 @@
+body{
+  background-color: #F8F9FA;
+}
+  #navbrb{
+      background-color: #D2691E;
+      border-radius: 3px;
+      width: 10rem;
+      text-align: center;
+  }
+  #btn1,#btn2{
+    background-color: #D2691E;
+  }
+  #btn1:hover,#btn2:hover{
+    background-color: #FAEBD7;
+    color: #D2691E;
+  }
+  #carousel{
+    display: flex;
+    width: 2000px;
+    align-items: center;
+    justify-content: center;
+  }
+  .carousel-item{
+    width: 1320px;
+    height: 600px;
+  }
+
+  .carousel-item img {
+    height: 1000px;
+  }
+  #hakkimizda{
+    font-weight: 410;
+  }
+
+  #form{
+    width: 500px;
+    margin-bottom: 10px;
+  }
+
+  #form4Example1{
+    width: 400px;
+  }
+
+  #submitbtn{
+    background-color: #D2691E;
+    color: #fff;
+  }
+  #submitbtn:hover{
+     background-color: #e66c16;
+  }
+
+
+  @media only screen and (max-width: 767px) {
+    #navbarNav{
+      flex-direction: row;
+      text-align: center; 
+    }
+    /* #navbarNav a{
+      margin-bottom: 10px;
+    } */
+    #buttonform1{
+      display: flex;
+      flex-direction: row;
+    }
+    /* #buttonform1 #btn1{
+      margin-bottom: 10px;
+    } */
+   
+  #carousel {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .carousel-inner {
+    max-width: 100%;
+  }
+
+  .carousel-item {
+    max-width: 100%;
+    height: auto;
+  }
+  .carousel-item img {
+    height: 300px;
+  }
+
+    #form {
+      width: 100%;
+      max-width: none;
+    }
+  
+    #form4Example1 {
+      width: 100%;
+      max-width: none;
+    }
+  
+  }
+
+   
