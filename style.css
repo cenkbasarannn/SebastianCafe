@@ -95,4 +95,11 @@ body{
   
   }
 
-   
+  @media only screen and (max-width: 25em){
+    #navbarNav{
+    flex-wrap: nowrap;
+    }
+    .mx-2{
+    font-size: .8rem;
+    }
+    }
